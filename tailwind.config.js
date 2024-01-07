@@ -8,30 +8,34 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
-  daisyui: {
-    themes: [
-      {
-        mytheme: {
+    
+    daisyui: {
+      themes: ["dim"],
+    },
+  }
 
-          "primary": "#e11d48",
+  
+  // themes: [
+  //   {
+  //     mytheme: {
 
-          "secondary": "#06b6d4",
+  //       "primary": "#e11d48",
 
-          "accent": "#57534e",
+  //       "secondary": "#06b6d4",
 
-          "neutral": "#080306",
+  //       "accent": "#57534e",
 
-          "base-100": "#f9fbff",
+  //       "neutral": "#080306",
 
-          "info": "#0080df",
+  //       "base-100": "#f9fbff",
 
-          "success": "#4ade80",
+  //       "info": "#0080df",
 
-          "warning": "#eab308",
+  //       "success": "#4ade80",
 
-          "error": "#c9001f",
-        },
-      },
-    ]
-  },
-}
+  //       "warning": "#eab308",
+
+  //       "error": "#c9001f",
+  //     },
+  //   },
+  // ]
